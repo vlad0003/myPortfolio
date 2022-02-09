@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/> 
+</head>
+<body>
+
+<!--loader-->
+
+<!--loader end-->
+
+<!--overlay-->
+<div class="overlay"></div>
+<!--overlay end-->
+
+<div class="main">
+    <!--Header-->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    <!--Header end-->
+
+    <!--Home-->
+    <section class="home-section align-items-center active" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello,i`m</p>
+                    <h1>Kolpakov Vlad</h1>
+                    <h2>Frontend Web Developer</h2>
+                    <a href="#about" class="btn link-item">About Me</a>
+                    <a href="#portfolio" class="btn link-item">Portfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="./img/1619543020_38-oir_mobi-p-sova-sipukha-zhivotnie-krasivo-foto-44.jpeg" alt="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--end Home-->
+
+      <!--About-->
+      <section class="about-section sec-padding" id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="section-title">
+                      <h2>About Me</h2>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="about-img">
+                      <div class="img-box">
+                          <img src="./img/1619543020_38-oir_mobi-p-sova-sipukha-zhivotnie-krasivo-foto-44.jpeg" alt="about img">
+                      </div>
+                  </div>
+                  <div class="about-text">
+                      <p>Разрабатываю сайты под ключ.<br>Cоздал  множетсво сайтов для студий красоты,малого и среднего бизнеса.</p>
+                      <h3>Skills</h3>
+                      <div class="skills">
+                          <div class="skill-item">html</div>
+                          <div class="skill-item">css</div>
+                          <div class="skill-item">swift</div>
+                          <div class="skill-item">c#</div>
+                          <div class="skill-item">tilda</div>
+                          <div class="skill-item">bitrix24</div>
+                          <div class="skill-item">javascript</div>
+                          <div class="skill-item">python</div>
+                      </div>
+                      <div class="about-tabs">
+                          <button type="button" class="tab-item active" data-target="#education">Обучение</button>
+                          <button type="button" class="tab-item" data-target="#experience">Опыт</button>
+                      </div>
+                      <div class="tab-content active" id="education">
+                          <div class="timeline">
+                              <div class="timeline-item">
+                                  <span class="date">2017-2018</span>
+                                  <h4>Курс по основам html/css.Курс по веб дизайну - <span>SkillBox</span></h4>
+                                  <p>Имеется сертификат.</p>
+                              </div>
+                              <div class="timeline-item">
+                                <span class="date">2018-2019</span>
+                                <h4>Курс аудита безопасности приложений и сайтов - <span>SkillFactory</span></h4>
+                                <p>Имеется сертификат.<br>Участвовал в 2019 в Москве на фестивале Хакатон и занял 4 место.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2020-2021</span>
+                                <h4>Курс по UX/UI разработке - <span>SkillBox</span></h4>
+                                <p>Имеется сертификат.</p>
+                            </div>
+                            
+                          </div>
+                      </div>
+                      <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018-2019</span>
+                                    <h4>WEB Developer</h4>
+                                    <p>Проходил стажировку в компании Яндекс на должность junior web-developer</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019-2022</span>
+                                    <h4>WEB Developer</h4>
+                                    <p>Работаю на Фрилансе</p>
+                                </div>
+                            </div>
+                      </div>
+                      <a href="#contact" class="btn link-item">Contact Me</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--end About-->
+
+      <!----Portfolio-->
+      <section class="portfolio-section sec-padding" id="portfolio">
+          <div class="container">
+              <div class="row">
+                  <div class="section-title">
+                      <h2>Мои работы</h2>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-thumbnail">
+                          <img src="./img/Снимок экрана 2022-01-14 в 19.10.26.png" alt="">
+                      </div>
+                      <h3 class="portfolio-item-title">Сайт для студии красоты</h3>
+                      <button type="button" class="btn view-project-btn">Подробнее</button>
+                      <div class="portfolio-item-details">
+                          <div class="description">
+                          
+                          </div>
+                          <div class="general-info">
+                              <ul>
+                                  <li>
+                                      Cоздан - <span>14 апреля 2021</span>
+                                  </li>
+                                  <li>
+                                    Создание при помощи - <span>Bitrix24,html,css,javascript</span>
+                                </li>
+                                <li>
+                                    Роль - <span>Full-stack</span>
+                                </li>
+                                <li>
+                                    Ознакомиться - <span><a href="https://care-profi.bitrix24.site" target="_blank">https://care-profi.bitrix24.site</a></span>
+                                </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./img/2.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Сайт для компании по перевозкам в Германии</h3>
+                    <button type="button" class="btn view-project-btn">Подробнее</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>
+                                    Cоздан - <span>25 ноября 2021</span>
+                                </li>
+                                <li>
+                                  Создание при помощи - <span>html,css,react.js</span>
+                              </li>
+                              <li>
+                                  Роль - <span>Full-stack</span>
+                              </li>
+                              <li>
+                                  Ознакомиться - <span><a href="https://www.aladachumzuege.de" target="_blank">https://www.aladachumzuege.de</a></span>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./img/3.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Сайт-визитка</h3>
+                    <button type="button" class="btn view-project-btn">Подробнее</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>
+                                    Cоздан - <span>13 января 2022</span>
+                                </li>
+                                <li>
+                                  Создание при помощи - <span>html,css,react.js</span>
+                              </li>
+                              <li>
+                                  Роль - <span>Full-stack</span>
+                              </li>
+                              <li>
+                                  Ознакомиться - <span><a href="#" target="_blank">www.domain.com</a></span>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!----end Portfolio-->
+
+      <!--Start contact-->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Имя" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Название проекта" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Описание" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>vlad0303200312@bk.ru</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Телефон</h3>
+                            <p>+7(919)-594-21-29</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Соц.сети</h3>
+                            <div class="social-links">
+                                <a href="https://vk.com/coder_vd" target="_black"><img src="./img/vk-reproductor.png" alt=""></a>
+                                <a href="https://www.instagram.com/r4nzzz/" target="_blank"><img src="./img/premium-icon-instagram-717392.png"></a>
+                                <a href="https://t.me/r4nzzz" target="_blank"><img src="./img/telegram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!--Start contact-->
+</div>
+
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close">+</button>
+                <div class="pp-thumbnail">
+                    <img src="./img/Снимок экрана 2022-01-14 в 19.10.26.png" alt="">
+                </div>
+                <h3>Сайт для студии красоты</h3>
+            </div>
+            <div class="pp-body">
+                <div class="description">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid.</p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>
+                            Cоздан - <span>14 апреля 2021</span>
+                        </li>
+                        <li>
+                          Создание при помощи - <span>Bitrix24,html,css,javascript</span>
+                      </li>
+                      <li>
+                          Роль - <span>Full-stack</span>
+                      </li>
+                      <li>
+                          Ознакомиться - <span><a href="https://care-profi.bitrix24.site" target="_blank">https://care-profi.bitrix24.site</a></span>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+<footer class="footer">
+<div class="container">
+  <div class="grid-4">
+    <div class="grid-4-col footer-about">
+      <h3 class="title-sm">About</h3>
+      <p class="text">
+        От идеи к реализации.<br>Быстро, качественно и без больной головы :)
+      </p>
+    </div>
+
+    <div class="grid-4-col footer-links">
+      <h3 class="title-sm">Links</h3>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+       
+        
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    
+    <div class="grid-4-col footer-newstletter">
+      <h3 class="title-sm">Оставь заявку</h3>
+      <p class="text">
+      <div class="footer-input-wrap">
+        <input type="text" class="footer-input" placeholder="Email" />
+        <a href="#" class="input-arrow">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-footer">
+    <div class="copyright">
+      <p class="text">
+        Copyright&copy;2022 All rights reserved | Made by
+        <span>r4nzzz (Kolpakov Vlad)</span>
+      </p>
+    </div>
+
+    <div class="followme-wrap">
+      <div class="followme">
+        <h3>Follow me</h3>
+        <span class="footer-line"></span>
+        <div class="social-media">
+          <a href="https://t.me/r4nzzz">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://vk.com/coder_vd">
+            <i class="fab fa-vk"></i>
+          </a>
+          <a href="https://www.instagram.com/r4nzzz/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        
+        </div>
+      </div>
+
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
